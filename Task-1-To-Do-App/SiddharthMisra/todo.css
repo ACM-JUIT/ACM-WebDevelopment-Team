@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+   
+    font-family: "poppins", sans-serif;
+    
+}
+body{
+    background: linear-gradient(to right top,#30cfd0,#330867);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #0059b3;
+    border-radius: 20px;
+    color: #fff;
+}
+form{
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+    
+}
+.task-input
+{
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid #0059b3;
+    border-radius: 5px;
+
+}
+.task_btn
+{
+    height: 39px;
+    padding: 5px 20px;
+    border: 2px solid #0059b3;
+    border-radius: 5px;
+    background-color: royalblue;
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+ tr{
+     border-bottom: 1px solid #0059b3;
+     color:#fff;
+ }
+ th
+ {
+     font-size: 19px;
+ }
+
+th,td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+.task_btn:hover
+{
+    background: red;
+}
+
+.delete
+{
+    text-align: center;
+}
+.delete a{
+    background:  #b30000;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+form p{
+    color: red;
+    margin: 0px;
+}
+.Number
+{
+    text-align: center;
+}
+
+.task
+{
+    text-align: center;
+}
