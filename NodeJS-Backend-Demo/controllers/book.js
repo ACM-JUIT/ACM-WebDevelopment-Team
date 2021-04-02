@@ -1,4 +1,3 @@
-const e = require('express');
 const Book = require('../models/book');
 
 exports.getBookById = (req, res, next, id) => {
